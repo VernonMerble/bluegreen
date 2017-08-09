@@ -7,7 +7,7 @@ $deployment = getenv("COLOR");
 
 if ( $deployment == 'blue') {
   //$color = imagecolorallocate($im, 0, 0, 255);
-  $color = imagecolorallocate($im, 1, 1, 254); // dummy change to test webhook
+  $color = imagecolorallocate($im, 2, 2, 253); // image trigger disabled
 } elseif ($deployment == 'green')  {
   $color = imagecolorallocate($im, 0, 255, 0);
 } else {
